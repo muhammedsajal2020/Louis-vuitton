@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.container{
+    
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+    overflow: hidden    ;
+    
+   
+}
+.header_container{ 
+    display: flex;
+    width: 100%;
+    height: 110px;
+ background-color: white;  
+}
+.searchimg{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+.one,.two,.three,.four,.five,.six,.seven{
+    display: flex;
+    width: 100%;
+  height: auto;
+    }
+.eight{
+   
+    /* height: 100%; */
+    /* width: 100%; */
+    
+    background-image: url(https://eu.louisvuitton.com/images/is/image/Rolling_Luggage_HP_DI3.jpg?wid=2048);
+
+}
+.v1{
+    padding-left: 10cm;
+
+}
+.h2 {
+   
+    display: block;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+}
+.container2{
+    
+  
+   
+    background: cadetblue;
+    display:flex;
+    flex-direction: row;
+
+
+}
+h1{
+    margin: 0;
+}
+
+.text{
+  
+  width: 150px;
+  height: 25px;
+  margin-top: 28px;
+  border:0;
+ border-color: #fff;
+}
+.h1{
+   
+    font-family: "Louis Vuitton Web","Helvetica Neue","Helvetica",Arial,sans-serif;
+    color: #19110b;
+}
+.tbody{
+  margin: 0;
+  width: 600px;
+}
+.navhead{
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.toplast
+{
+    display: flex;
+   padding-left: 80%;
+   margin-top: 25px;
+}
+.h1first
+{
+    margin-top: 20px;
+   margin-left: 10px;
+    font-weight: unset;
+    font-size: 13px;
+}
+.h2first
+{
+    margin-top: -29px;
+   margin-left: 70px;
+    font-weight: unset;
+    font-size: 13px;
+}
+.tb{
+    font-family: "Louis Vuitton Web","Helvetica Neue","Helvetica",Arial,sans-serif;
+    
+}
+.thli
+{
+    padding:10px;
+    font-weight: unset;
+    font-size: 13px;
+}
+.imgbrand{
+    margin-left: -140px;
+}
+.textborder{
+   border-color: #fff;
+   border: 0;
+}
+
+
+
+
+
+
+
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
